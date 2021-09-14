@@ -1,6 +1,9 @@
-# Backend Challenge
 
-Bem-vindx ao desafio técnico para a vaga de backend na Delivery Much! 🍽
+![alt text](https://dmimagens.s3-us-west-1.amazonaws.com/logo-colorido-horizontal.png "Delivery Much Brasil")
+
+# Backend Challenge
+-
+Olá, este é desafio técnico para a vaga de backend na Delivery Much! 🍽
 
 O mercadinho de Seu Zé, como diversos pequenos empreendimentos do Brasil, sofreu com a redução do volume de vendas no meio físico durante a pandemia de COVID-19. Buscando encontrar soluções para seu problema, viu na Delivery Much uma possível saída para sustentar seu negócio: levá-lo para o meio digital, atraindo clientes de diferentes bairros de sua cidade em Alegrete, no Rio Grande do Sul.
 
@@ -145,15 +148,6 @@ Response exemplo:
   "total": 7.29
 }
 ```
-## Avaliação
-
-A intenção principal deste desafio é avaliar suas habilidades em:
-
-- Estruturar e armazenar dados de modo eficiente;
-- Realizar comunicação com serviços externos;
-- Escrever código legível, desacoplado e modularizado;
-- Lidar com serviços de mensageria;
-- Efetuar o design e arquitetura de APIs.
 
 ## Requisitos
 
@@ -163,5 +157,41 @@ A intenção principal deste desafio é avaliar suas habilidades em:
 - Atender os cenários de uso explicitados;
 - Tratar erros e indisponibilidade de serviços externos;
 - Desenvolver testes;
-- Utilizar Docker;
+- Entregar aplicação *dockerizada*;
 - Compartilhar repositório privado da solução com [@deliverymuchdevs](https://github.com/deliverymuchdevs).
+
+## O que nós vamos avaliar
+
+- Como você estrutura e armazena dados;
+- Como você lida com serviços de mensageria;
+- Como foi projetado o design e arquitetura da sua API.
+- Legibilidade, arquitetura adotada, qualidade do código e requisitos atendidos.
+- Suas decisões técnicas são livres, mas tenha em mente que poderemos questionar durante a entrevista.
+- Inclua um arquivo *README* que possua:
+  - um compilado de desafios/problemas que identificou durante o desenvolvimento do projeto.
+  - próximos passos e melhorias futuras para a sua aplicação, seja em performance, estrutura ou padrões. 
+  - passo-a-passo que seja suficiente para que qualquer pessoa consiga rodar sua aplicação sem maiores problemas.
+
+
+## Dicas
+
+- Deixe seu README bem completo, teste os passos de instalação se possível.
+- A organização dos commits no repositório falam muito sobre como você organiza seu trabalho.
+- Não deixe de escrever testes unitários.
+- Tenha em mente os conceitos de *KISS, YAGNI e DRY*.
+- Use boas práticas de programação.
+- Seu projeto deve rodar preferencialmente apenas com o comando `docker-compose up`.
+
+## FAQ
+
+#### Posso utilizar frameworks/bibliotecas?
+
+Você pode usar bibliotecas como Express || Koa, mas queremos que a solução de arquitetura seja sua, portanto não use frameworks que impõem uma arquitetura específica.
+
+#### Quanto tempo eu tenho ?
+
+Quanto mais tempo você demorar, mais críticos seremos na sua avaliação 🤪
+
+#### Qual banco de Dados devo usar?
+
+Escolha preferencialmente MongoDB ou MariaDB. 
